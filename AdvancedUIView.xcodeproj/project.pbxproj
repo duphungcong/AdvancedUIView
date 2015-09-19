@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A607E3E11BAB23FB006D64E8 /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A607E3E01BAB23FB006D64E8 /* ChessView.m */; };
 		A62670811BA5B95F00ADD7C6 /* CampFire.m in Sources */ = {isa = PBXBuildFile; fileRef = A62670801BA5B95F00ADD7C6 /* CampFire.m */; };
 		A62670A31BA5BA3200ADD7C6 /* campFire01.gif in Resources */ = {isa = PBXBuildFile; fileRef = A62670921BA5BA3200ADD7C6 /* campFire01.gif */; };
 		A62670A41BA5BA3200ADD7C6 /* campFire02.gif in Resources */ = {isa = PBXBuildFile; fileRef = A62670931BA5BA3200ADD7C6 /* campFire02.gif */; };
@@ -25,6 +26,8 @@
 		A62670B11BA5BA3200ADD7C6 /* campFire15.gif in Resources */ = {isa = PBXBuildFile; fileRef = A62670A01BA5BA3200ADD7C6 /* campFire15.gif */; };
 		A62670B21BA5BA3200ADD7C6 /* campFire16.gif in Resources */ = {isa = PBXBuildFile; fileRef = A62670A11BA5BA3200ADD7C6 /* campFire16.gif */; };
 		A62670B31BA5BA3200ADD7C6 /* campFire17.gif in Resources */ = {isa = PBXBuildFile; fileRef = A62670A21BA5BA3200ADD7C6 /* campFire17.gif */; };
+		A63478441BA716BA003E65F6 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A63478421BA716BA003E65F6 /* BasicView.m */; };
+		A63478451BA716BA003E65F6 /* BasicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63478431BA716BA003E65F6 /* BasicView.xib */; };
 		A66C55AA1BA3305700361426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C55A91BA3305700361426 /* main.m */; };
 		A66C55B51BA3305700361426 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66C55B41BA3305700361426 /* Images.xcassets */; };
 		A66C55B81BA3305700361426 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66C55B61BA3305700361426 /* LaunchScreen.xib */; };
@@ -32,9 +35,12 @@
 		A66C55D71BA3321100361426 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C55D31BA3321100361426 /* BootLogic.m */; };
 		A66C55D81BA3321100361426 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C55D51BA3321100361426 /* ConsoleScreen.m */; };
 		A66C55DB1BA332B300361426 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C55DA1BA332B300361426 /* MainScreen.m */; };
+		A6EB4D7D1BADC9AF00B5BCF4 /* reset_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A6EB4D7C1BADC9AF00B5BCF4 /* reset_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A607E3DF1BAB23FB006D64E8 /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		A607E3E01BAB23FB006D64E8 /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
 		A626707F1BA5B95F00ADD7C6 /* CampFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampFire.h; sourceTree = "<group>"; };
 		A62670801BA5B95F00ADD7C6 /* CampFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampFire.m; sourceTree = "<group>"; };
 		A62670921BA5BA3200ADD7C6 /* campFire01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire01.gif; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 		A62670A01BA5BA3200ADD7C6 /* campFire15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire15.gif; sourceTree = "<group>"; };
 		A62670A11BA5BA3200ADD7C6 /* campFire16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire16.gif; sourceTree = "<group>"; };
 		A62670A21BA5BA3200ADD7C6 /* campFire17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = campFire17.gif; sourceTree = "<group>"; };
+		A63478411BA716BA003E65F6 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		A63478421BA716BA003E65F6 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		A63478431BA716BA003E65F6 /* BasicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicView.xib; sourceTree = "<group>"; };
 		A66C55A41BA3305700361426 /* AdvancedUIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedUIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66C55A81BA3305700361426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A66C55A91BA3305700361426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +76,7 @@
 		A66C55D51BA3321100361426 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
 		A66C55D91BA332B300361426 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		A66C55DA1BA332B300361426 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		A6EB4D7C1BADC9AF00B5BCF4 /* reset_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,11 @@
 			children = (
 				A626707F1BA5B95F00ADD7C6 /* CampFire.h */,
 				A62670801BA5B95F00ADD7C6 /* CampFire.m */,
+				A63478411BA716BA003E65F6 /* BasicView.h */,
+				A63478421BA716BA003E65F6 /* BasicView.m */,
+				A63478431BA716BA003E65F6 /* BasicView.xib */,
+				A607E3DF1BAB23FB006D64E8 /* ChessView.h */,
+				A607E3E01BAB23FB006D64E8 /* ChessView.m */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -92,6 +107,7 @@
 		A62670821BA5B9F900ADD7C6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A6EB4D771BADC01200B5BCF4 /* Basic */,
 				A62670831BA5BA0600ADD7C6 /* Fire */,
 			);
 			name = Images;
@@ -174,6 +190,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		A6EB4D771BADC01200B5BCF4 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB4D7C1BADC9AF00B5BCF4 /* reset_button.png */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,8 +260,10 @@
 				A62670AE1BA5BA3200ADD7C6 /* campFire12.gif in Resources */,
 				A62670A51BA5BA3200ADD7C6 /* campFire03.gif in Resources */,
 				A62670A91BA5BA3200ADD7C6 /* campFire07.gif in Resources */,
+				A6EB4D7D1BADC9AF00B5BCF4 /* reset_button.png in Resources */,
 				A62670A71BA5BA3200ADD7C6 /* campFire05.gif in Resources */,
 				A62670A61BA5BA3200ADD7C6 /* campFire04.gif in Resources */,
+				A63478451BA716BA003E65F6 /* BasicView.xib in Resources */,
 				A62670B11BA5BA3200ADD7C6 /* campFire15.gif in Resources */,
 				A62670AB1BA5BA3200ADD7C6 /* campFire09.gif in Resources */,
 				A66C55B81BA3305700361426 /* LaunchScreen.xib in Resources */,
@@ -264,8 +290,10 @@
 				A66C55D71BA3321100361426 /* BootLogic.m in Sources */,
 				A66C55DB1BA332B300361426 /* MainScreen.m in Sources */,
 				A66C55D81BA3321100361426 /* ConsoleScreen.m in Sources */,
+				A63478441BA716BA003E65F6 /* BasicView.m in Sources */,
 				A66C55D61BA3321100361426 /* AppDelegate.m in Sources */,
 				A66C55AA1BA3305700361426 /* main.m in Sources */,
+				A607E3E11BAB23FB006D64E8 /* ChessView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,8 @@
     //--------- From this line, please customize your menu data -----------
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                     @{TITLE: @"Camp Fire", CLASS: @"CampFire"},
-                                    @{TITLE: @"Basic B", CLASS: @"BasicB"}
+                                    @{TITLE: @"Basic View", CLASS: @"BasicView"},
+                                    @{TITLE: @"Chess", CLASS: @"ChessView"}
                           ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
