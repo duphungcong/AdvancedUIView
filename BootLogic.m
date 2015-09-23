@@ -18,13 +18,12 @@
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                     @{TITLE: @"Camp Fire", CLASS: @"CampFire"},
                                     @{TITLE: @"Basic View", CLASS: @"BasicView"},
-                                    @{TITLE: @"Chess", CLASS: @"ChessView"}
+                                    @{TITLE: @"Chess View", CLASS: @"ChessView"},
+                                    @{TITLE: @"Nested Square", CLASS: @"NestedSquare"},
+                                    @{TITLE: @"Flying Bird", CLASS: @"FlyingBird"}
                           ]};
-    NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
-                                    @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
-                             ]};
     
-    mainScreen.menu = @[basic, advanced];
+    mainScreen.menu = @[basic];
     mainScreen.title = @"Advanced UIView";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
