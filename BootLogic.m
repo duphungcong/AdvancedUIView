@@ -20,7 +20,9 @@
                                     @{TITLE: @"Basic View", CLASS: @"BasicView"},
                                     @{TITLE: @"Chess View", CLASS: @"ChessView"},
                                     @{TITLE: @"Nested Square", CLASS: @"NestedSquare"},
-                                    @{TITLE: @"Flying Bird", CLASS: @"FlyingBird"}
+                                    @{TITLE: @"Flying Bird", CLASS: @"FlyingBird"},
+                                    @{TITLE: @"Swing Ship", CLASS: @"SwingShip"},
+                                    @{TITLE: @"Star Field", CLASS: @"StarField"}
                           ]};
     
     mainScreen.menu = @[basic];
