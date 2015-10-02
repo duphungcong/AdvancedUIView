@@ -22,7 +22,9 @@
                                     @{TITLE: @"Nested Square", CLASS: @"NestedSquare"},
                                     @{TITLE: @"Flying Bird", CLASS: @"FlyingBird"},
                                     @{TITLE: @"Swing Ship", CLASS: @"SwingShip"},
-                                    @{TITLE: @"Star Field", CLASS: @"StarField"}
+                                    @{TITLE: @"Star Field", CLASS: @"StarField"},
+                                    @{TITLE: @"Hex Color #2", CLASS: @"HexColor2"},
+                                    @{TITLE: @"Hex Color #3", CLASS: @"HexColor3"}
                           ]};
     
     mainScreen.menu = @[basic];
