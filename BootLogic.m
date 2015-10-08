@@ -24,7 +24,8 @@
                                     @{TITLE: @"Swing Ship", CLASS: @"SwingShip"},
                                     @{TITLE: @"Star Field", CLASS: @"StarField"},
                                     @{TITLE: @"Hex Color #2", CLASS: @"HexColor2"},
-                                    @{TITLE: @"Hex Color #3", CLASS: @"HexColor3"}
+                                    @{TITLE: @"Hex Color #3", CLASS: @"HexColor3"},
+                                    @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"}
                           ]};
     
     mainScreen.menu = @[basic];
