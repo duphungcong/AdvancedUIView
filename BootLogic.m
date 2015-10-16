@@ -25,7 +25,9 @@
                                     @{TITLE: @"Star Field", CLASS: @"StarField"},
                                     @{TITLE: @"Hex Color #2", CLASS: @"HexColor2"},
                                     @{TITLE: @"Hex Color #3", CLASS: @"HexColor3"},
-                                    @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"}
+                                    @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"},
+                                    @{TITLE: @"Drop Ball", CLASS: @"DropBall"},
+                                    @{TITLE: @"Earth around Sun", CLASS: @"EarthAroundSun"}
                           ]};
     
     mainScreen.menu = @[basic];

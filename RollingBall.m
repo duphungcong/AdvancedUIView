@@ -8,6 +8,10 @@
 
 #import "RollingBall.h"
 
+@interface RollingBall ()
+
+@end
+
 @implementation RollingBall
 {
     UIImageView *ball;
@@ -17,6 +21,7 @@
     CGFloat alpha;
     CGFloat deltaSpeed;
     int goAhead;
+    CGFloat ballCenterYConst;
 }
 
 - (void)viewDidLoad {
@@ -41,6 +46,7 @@
     ball = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"football.png"]];
     ballRadius = 32.0;
     ball.center = CGPointMake(ballRadius, mainViewSize.height * 0.5);
+    ballCenterYConst = ball.center.y;
     
     [self.view addSubview:ball];
 }
@@ -75,13 +81,19 @@
     deltaAngle = (0.1 + deltaSpeed) * goAhead;
     if(deltaAngle < 0.0) {
         goAhead = -1;
-        NSLog(@"test");
      }
     
     angle += deltaAngle;
     ball.transform = CGAffineTransformMakeRotation(angle);
-    ball.center = CGPointMake(ball.center.x + ballRadius * deltaAngle * cosf(alpha),
-                              ball.center.y - ballRadius * deltaAngle * sinf(alpha));
+    if(alpha > 0.0) {
+        ball.center = CGPointMake(ball.center.x + ballRadius * deltaAngle * cos(alpha),
+                                  ball.center.y - ballRadius * deltaAngle * sin(alpha));
+    }
+    else {
+        ball.center = CGPointMake(ball.center.x + ballRadius * deltaAngle,
+                                  ballCenterYConst);
+    }
+    NSLog(@"%2.1f", ball.center.y);
 }
 
 - (void) viewWillDisappear:(BOOL)animated {
